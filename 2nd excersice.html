@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      p{
+        margin: 0%;
+        padding: 3px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .contain{
+        display: flex;
+        vertical-align: top;
+      }
+      .ret{
+        width: 90px;
+        display: block;
+      }
+      .pp{
+        display: block;
+        width: 120px
+        
+      }
+      .cat{
+        height: 80px;
+        width: 80px;
+        border-radius: 80px;
+        margin-right: 20px;
+      }
+      .butt{
+        background-color: rgb(81, 135, 235);
+        border: 0ch;
+        color: white;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 5px;
+        margin-left: 90px;
+        margin-top: 20px;
+        width: 80px;
+        height: 40px;
+        cursor: pointer;
+      }
+      .sug-container{
+        display: flex;
+      }
+      .sug-pic{
+        display: flex;
+        width: 200px;
+        height: 200px;
+        margin-bottom: 5px;
+        border: 1px;
+        box-shadow: 4px 4px;
+      }
+      .add{
+        background-color: rgb(9, 103, 209);
+        color: white;
+        border: 0ch;
+        width: 150px;
+        height: 30px;
+        font-size: 20px;
+        border-radius: 6px;
+        cursor: pointer;
+        padding: 5px 10px;
+      }
+      .mutual{
+        margin-bottom: 4px;
+      }
+      .sug-row{
+        vertical-align: top;
+        width: 210px;
+        border: 1px solid #ccc;
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .full-sug{
+        vertical-align: top;
+        display: flex;
+        gap: 20px;
+        border: 1px solid black;
+        width: fit-content;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contain">
+      <div class="ret">
+        <img class="cat" src="channel-2.jpeg">
+      </div>
+      <div class="pp">
+        <p class="oliver">
+         <strong>oliver</strong> 
+        </p>
+        <p>
+          the cat
+        </p>
+        <p>
+          Popular
+        </p>
+      </div>
+      <div>
+        <button class="butt">Follow</button>
+      </div>
+    </div>
+    <br>
+    <div class="contain">
+      <div class="ret">
+        <img class="cat" src="Chrysanthemum.jpg">
+      </div>
+      <div class="pp">
+        <p class="oliver">
+         <strong>mimi</strong> 
+        </p>
+        <p>
+          Sleepy cat
+        </p>
+        <p>
+          Popular
+        </p>
+      </div>
+      <div>
+        <button class="butt">Follow</button>
+      </div>
+    </div>
+    <br>
+    <div class="contain">
+      <div class="ret">
+        <img class="cat" src="channel-2.jpeg">
+      </div>
+      <div class="pp">
+        <p class="oliver">
+         <strong>rex</strong> 
+        </p>
+        <p>
+          Happy bulldog
+        </p>
+        <p>
+          Popular
+        </p>
+      </div>
+      <div>
+        <button class="butt">Follow</button>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="full-sug">
+      <div class="sug-row">  
+        <div>
+        <img class="sug-pic" src="1.jpg">
+        </div>
+        <div>
+          <strong>Oliver</strong>
+          <p class="mutual">2 mutual friends </p>
+          <button class="add">Add Friend</button>
+        </div>
+        </div>
+        <div class="sug-row">  
+          <div>
+          <img class="sug-pic" src="2.jpg">
+          </div>
+          <div>
+            <strong>Oliver</strong>
+            <p class="mutual">2 mutual friends </p>
+            <button class="add">Add Friend</button>
+          </div>
+          </div>
+          <div class="sug-row">  
+            <div>
+            <img class="sug-pic" src="3.jpg">
+            </div>
+            <div>
+              <strong>Oliver</strong>
+              <p class="mutual">2 mutual friends </p>
+              <button class="add">Add Friend</button>
+            </div>
+            </div>
+    </div>
+  </body>
+</html>
